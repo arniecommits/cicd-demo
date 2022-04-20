@@ -1,3 +1,4 @@
+#define provider
 provider "aws" {
     region = lookup(var.awsprops, "region")
 }

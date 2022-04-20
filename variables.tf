@@ -1,4 +1,5 @@
 variable "awsprops" {
+
     type = "map"
     default = {
     region = "us-east-1"
@@ -10,4 +11,5 @@ variable "awsprops" {
     keyname = "aws-labs"
     secgroupname = "SSHAccess"
   }
+
 }
